@@ -1,0 +1,35 @@
+{
+  "name": "happy-meal-nutrition-guardian",
+  "version": "1.0.0",
+  "description": "麦麦儿童营养管家 —— 基于麦当劳官方 MCP 能力，为家长科学规划孩子的儿童套餐：按年龄段营养需求评估套餐、筛查过敏原、给出更均衡的搭配建议。",
+  "type": "module",
+  "bin": {
+    "hmng": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js recommend",
+    "recommend": "node src/cli.js recommend",
+    "evaluate": "node src/cli.js evaluate",
+    "list": "node src/cli.js list",
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "mcd",
+    "mcp",
+    "mcdonalds",
+    "nutrition",
+    "kids-meal",
+    "happy-meal",
+    "skill",
+    "children-nutrition"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "dotenv": "^16.4.5"
+  }
+}

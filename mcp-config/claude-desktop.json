@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mcd-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://mcp.mcd.cn",
+        "--header",
+        "Authorization: Bearer ${MCD_MCP_TOKEN}"
+      ]
+    }
+  }
+}
